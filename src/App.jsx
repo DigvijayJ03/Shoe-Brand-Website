@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import Login from './components/Login';
 import About from './components/About';
 import Men from './components/Men';
+import Women from './components/Women';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/men' element={<Men/>}/>
+        <Route path='/women' element={<Women/>}/>
       </Routes>
     </BrowserRouter>
 

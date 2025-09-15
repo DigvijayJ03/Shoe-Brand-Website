@@ -29,12 +29,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <a 
-                href="#" 
+              <Link
+                to="/women"
                 className="transition-colors duration-200 hover:text-red-600"
               >
                 Women
-              </a>
+              </Link>
             </li>
             <li>
               <Link 

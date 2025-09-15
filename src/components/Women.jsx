@@ -134,7 +134,7 @@ function Footer() {
 }
 
 // ✅ Men Page
-export default function Men() {
+export default function Women() {
   const products = [
     {
       image: "public/images/shoe1.avif",
@@ -167,7 +167,7 @@ export default function Men() {
       {/* Hero Section */}
       <div className="relative h-screen w-full">
         <img
-          src="/images/athelete.jpg"
+          src="/images/womenShoes.jpg"
           alt="Men's Collection"
           className="h-full w-full object-cover"
         />
